@@ -1,0 +1,49 @@
+
+html {
+  background-color: #f3f3f3;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.app-wrapper {
+  padding-top: 3rem;
+}
+
+.left-bar {
+  bottom: 0;
+  left: 0;
+  padding-top: 3rem;
+  position: fixed;
+  top: 0;
+  width: 295px;
+}
+
+.content-area {
+  padding-left: 295px;
+  max-width: 750px;
+  min-width: 400px;
+}
+
+.label-row {
+  display: flex;
+  padding: 4px 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.label-name {
+  display: inline-block;
+  flex: 1;
+  color: #777;
+  font-size: 12pt;
+  width: 110px;
+  text-align: right;
+  padding-right: 20px;
+  vertical-align: top;
+}
+
+.label-value {
+  display: inline-block;
+  flex: 2;
+  font-size: 12pt;
+  max-width: 510px;
+}
